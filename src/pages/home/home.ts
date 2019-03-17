@@ -4,6 +4,7 @@ import { AboutPage } from '../about/about';
 import { NewClassPage } from '../new-class/new-class';
 import { AddMemberPage } from '../add-member/add-member';
 import { SlidesPage } from '../slides/slides';
+import { CustomerPage } from '../customer/customer';
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
@@ -25,4 +26,11 @@ export class HomePage {
   gotoSlides()
 {
   this.navCtrl.push(SlidesPage);
-}}
+}
+gotoCustomer()
+{
+  this.navCtrl.push(CustomerPage);
+}
+
+}
+
