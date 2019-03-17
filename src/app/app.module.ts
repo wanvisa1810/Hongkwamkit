@@ -9,6 +9,7 @@ import { HomePage } from '../pages/home/home';
 import { AboutPage } from '../pages/about/about';
 import { NewClassPage } from '../pages/new-class/new-class';
 import { AddMemberPage } from '../pages/add-member/add-member';
+import { SlidesPage } from '../pages/slides/slides';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { AddMemberPage } from '../pages/add-member/add-member';
     HomePage,
     AboutPage,
     NewClassPage,
-    AddMemberPage
+    AddMemberPage,
+    SlidesPage
   ],
   imports: [
     BrowserModule,
@@ -28,7 +30,8 @@ import { AddMemberPage } from '../pages/add-member/add-member';
     HomePage,
     AboutPage,
     NewClassPage,
-    AddMemberPage
+    AddMemberPage,
+    SlidesPage
   ],
   providers: [
     StatusBar,

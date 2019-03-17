@@ -3,6 +3,7 @@ import { NavController } from 'ionic-angular';
 import { AboutPage } from '../about/about';
 import { NewClassPage } from '../new-class/new-class';
 import { AddMemberPage } from '../add-member/add-member';
+import { SlidesPage } from '../slides/slides';
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
@@ -13,7 +14,7 @@ export class HomePage {
 
   }
   gotoAbout(){
-    this.navCtrl.push(AboutPage);
+    this.navCtrl.setRoot(AboutPage);
   }
   gotoNewClass(){
     this.navCtrl.push(NewClassPage);
@@ -21,4 +22,7 @@ export class HomePage {
   gotoAddMember(){
     this.navCtrl.push(AddMemberPage);
 }
-}
+  gotoSlides()
+{
+  this.navCtrl.push(SlidesPage);
+}}
